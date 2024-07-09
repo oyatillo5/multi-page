@@ -1,0 +1,230 @@
+// HERO START
+
+.home__hero-section {
+  padding-top: 162px;
+  display: flex;
+  justify-content: space-between;
+}
+.home__hero-left-title {
+  font-family: "DM Serif Display";
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.5538461804389954px;
+  color: #36536b;
+  max-width: 546px;
+  margin-top: 78px;
+  margin-bottom: 21px;
+}
+
+.btn__hero {
+  margin-left: -171px;
+}
+.form__contacts-text {
+  margin-top: 16px;
+  padding-left: 27px;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.63px;
+  color: #6c8294;
+}
+.home__hero-right {
+  max-width: 263px;
+}
+.form__contacts-text a {
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.63px;
+  color: #6c8294;
+}
+
+@media only screen and (max-width: 815px) {
+  .home__hero-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 100%;
+  }
+  .home__hero-left {
+    width: 100%;
+    text-align: center;
+  }
+  .home__hero-left-title {
+    max-width: 100%;
+  }
+  .home__hero-right {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  form {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    max-width: 100%;
+  }
+  .inp {
+    max-width: 87%;
+  }
+  form .btn {
+    width: 100%;
+    margin-left: 0;
+  }
+  .home__hero-section {
+    padding-top: 90px;
+  }
+  .home__hero-right img {
+    width: 128px;
+    height: 240px;
+  }
+  .home__hero-left-title {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 0px;
+    line-height: 36px;
+    letter-spacing: -0.2461538463830948px;
+  }
+}
+
+// HERO FINISH
+
+// WE__WORK START
+
+.we__work-section {
+  background-color: #1b262f;
+  padding: 100px 0;
+  width: 100%;
+}
+.we__work-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 131px;
+  background-color: #1b262f;
+}
+.we__work-left {
+  max-width: 445px;
+}
+.we__work-title {
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.3692307770252228px;
+  color: #fbfcfe;
+  margin-bottom: 24px;
+}
+.we__work-title-text {
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fbfcfe70;
+  margin-bottom: 32px;
+}
+.we__work-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 536px;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 927px) {
+  .we__work-wrapper {
+    flex-direction: column-reverse;
+  }
+  .we__work-right {
+    flex-wrap: wrap;
+  }
+  .we__work-left {
+    text-align: center;
+  }
+  .we__work-title {
+    margin-top: -25px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+// WE WOR FINISH
+
+// EASY START
+
+.easy__wrapper {
+  padding: 150px 0;
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+.easy__left {
+  max-width: 445px;
+}
+.easy__right {
+  max-width: 445px;
+}
+.easy__right-title {
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.3692307770252228px;
+  color: #36536b;
+}
+.easy__right-text {
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6c8294;
+  margin-top: 60px;
+}
+.easy__left-cards {
+  background-color: #1b262f;
+  border-radius: 10px;
+}
+.easy__left-card-main {
+  color: #fbfcfe;
+  font-family: "Public Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.easy__left-card-header {
+  background-color: #2e3f4d;
+  padding: 12px 0 12px 16px;
+  border-radius: 10px 10px 0 0;
+}
+pre {
+  margin: 32px 97px 32px -94px;
+  margin-left: -94px;
+  margin-top: 32px;
+  margin-right: 97px;
+}
+@media only screen and (max-width: 850px) {
+  .easy__wrapper {
+    flex-direction: column;
+    gap: 48px;
+    text-align: center;
+  }
+  .easy__left {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .easy__right-title {
+    font-size: 36px;
+    line-height: 32px;
+  }
+  .easy__wrapper {
+    gap: 30px;
+  }
+  .easy__left {
+    max-width: 328px;
+  }
+}
